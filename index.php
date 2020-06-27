@@ -7,17 +7,31 @@
 		<link rel="icon" type="image/x-icon" href="img/general/icon.png" />
 	</head>
 	
-	<!-- Body -->
 	<body>
+
         <div id="menu">
             <ul>
-                <li class="page-active"><a href="index.php">Accueil</a></li>
-                <li><a href="views/presentation.php">Présentation</a></li>
+                <li class="page-active"><a href="index.php#HO">Accueil</a></li>
+                <li><a href="index.php#SE">Services</a></li>
+                <li><a href="index.php#RO">Chambres</a></li>
+			    <li><a href="index.php#AC">Activités</a></li>
             </ul>
         </div>
 	
-		<div id="wrapper">
-            <h1>Bienvenue sur Perler Imagiro</h1>
+		<div id="home">
+	        <a name="HO" id="HO"><h2>Accueil</h2></a>
+            <hr />
+		</div>
+		<div id="services">
+	        <a name="SE" id="SE"><h2>Services</h2></a>
+            <hr />
+		</div>
+		<div id="rooms">
+	        <a name="RO" id="RO"><h2>Chambres</h2></a>
+            <hr />
+		</div>
+		<div id="activities">
+	        <a name="AC" id="AC"><h2>Activités</h2></a>
             <hr />
 		</div>
 
